@@ -579,3 +579,199 @@ else if (time >= 1700 && time < 2100) {
 if (time >= 2100 && time <= 2359) {
     alert("Good Night");
 }
+
+
+// CHAPTER NO 14-16
+
+// 1
+var a_s_name = [];
+
+// 2
+var o_s_name = {};
+
+// 3
+var a_str = ['Pakistan', 'Turkey', 'Chine'];
+
+// 4
+var a_num = [4,7,9,49];
+
+// 5
+var a_bool = [true, false, false, true];
+
+// 6
+var a_mix = [7, 'PAKISTAN', true];
+
+// 7
+var qualification = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M.Phil', 'PhD'];
+
+document.write("<br><br><h2>Qualifications:</h2>")
+for (let i = 0; i < qualification.length; i++) {
+    document.write((i+1)+") "+qualification[i]+"<br>");
+}
+
+
+// 8
+var names = ['Farrukh', 'Taha', 'Usama'];
+var score = [350, 360 ,370];
+document.write("<br><br>Score of "+ names[0]+" is "+score[0]+". Percentage: "+(score[0]/500*100));
+document.write("<br>Score of "+ names[1]+" is "+score[1]+". Percentage: "+(score[1]/500*100));
+document.write("<br>Score of "+ names[2]+" is "+score[2]+". Percentage: "+(score[2]/500*100));
+
+
+// 9
+var color = ['blue'];
+color.splice(0, 0,prompt("Enter Color you want to add in front"));
+document.write("<br><br>Updated array: "+color);
+color.splice(color.length, 0,prompt("Enter Color you want to add in end"));
+document.write("<br>Updated array: "+color);
+color.splice(0, 0,prompt("Enter Two Color you want to add in front"));
+color.splice(0, 0,prompt("Enter Two Color you want to add in front"));
+document.write("<br>Updated array: "+color);
+color.shift();
+document.write("<br>Updated array: "+color);
+color.pop();
+document.write("<br>Updated array: "+color);
+var temp = parseInt(prompt('Enter Index where you want to insert color'));
+color.splice(temp, 0,prompt("Now enter color"));
+document.write("<br>Updated array: "+color);
+var temp = parseInt(prompt('which index you wants to delete color(s)'));
+color.splice(temp, parseInt(prompt("how many color you delete")));
+document.write("<br>Updated array: "+color);
+
+
+// 10
+var score = [320,230,480,120];
+document.write("<br><br>Score of Student: "+score);
+document.write("<br>Sorted Score of Student: "+score.sort());
+
+
+// 11
+var cities = ['Karachi', 'Lahore', 'Islamabad', 'Quetta', 'Peshawar'];
+var selectCity = cities.slice(0,3);
+document.write("<br><br>Cities List:<br> "+cities);
+document.write("<br>Selected Cities List:<br> "+selectCity);
+
+
+// 12
+var arr = ['This', 'is', 'my', 'cat'];
+document.write("<br><br>Array:<br> "+arr);
+document.write("<br>String:<br> "+arr.join(" "));
+
+
+// 13
+var devices = []
+devices.push('keyboard');
+document.write("<br>IN: <br>"+devices);
+devices.push('Mouse');
+document.write("<br>IN: <br>"+devices);
+devices.push('Printer');
+document.write("<br>IN: <br>"+devices);
+devices.push('Monitor');
+document.write("<br>IN: <br>"+devices);
+// devices.push('keyboard');
+document.write("<br><br>Out: <br>"+devices.shift());
+devices.push('Mouse');
+document.write("<br>Out: <br>"+devices.shift());
+devices.push('Printer');
+document.write("<br>Out: <br>"+devices.shift());
+devices.push('Monitor');
+document.write("<br>Out: <br>"+devices.shift());
+
+
+// 14
+var mobile_m = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier'];
+document.write("<br>Mobile Manufactures:<br><select name='Mobile Manufactures'>");
+for (var i in mobile_m) {
+    document.write("<option value=''>"+mobile_m[i]+"</option>");
+}
+document.write("</select");
+
+// CHAPTER N0 14-16
+
+// 1
+var md_arr = [[],[]];
+
+// 2
+md_arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+document.write("<br><br>");
+
+// 3
+for (let i = 1; i < 11; i++) {
+    document.write("<br>"+i);    
+}
+
+// 4
+var tbl = parseInt(prompt("Enter Table Number"));
+var ln = parseInt(prompt("Length of table"));
+document.write("<br><br>Multiplication table of "+tbl);
+document.write("<br>Length of table "+ln+"<br>");
+for (let i = 1; i <= ln; i++) {
+    document.write("<br>"+tbl+" X "+i+" = "+(i*tbl));
+    
+}
+
+
+// 5
+var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
+document.write("<br>"+ (fruits.join("<br>"))+ "<br><br>");
+for (var item in fruits){
+    document.write("<br>Element at index "+item+" is "+ fruits[item]);
+}
+
+
+// 6
+
+document.write("<br><br>a. Counting: ")
+for (let i = 1; i <= 15; i++) {
+    document.write(i+",");
+}
+document.write("<br>b. Reverse Counting: ")
+for (let i = 15; i >= 1; i--) {
+    document.write(i+",");
+}
+document.write("<br>c. Even Counting: ")
+for (let i = 0; i <= 15; i++) {
+    if (i % 2 == 0 || i == 0){
+        document.write(i+",");
+    }
+}
+document.write("<br>d. Odd: ")
+for (let i = 1; i <= 15; i++) {
+    if (i % 2 != 0){
+        document.write(i+",");
+    }
+}
+document.write("<br>e. Series: ")
+for (let i = 0; i <= 15; i++) {
+    document.write(i+"K,");
+}
+
+
+// 7
+var bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+var search = prompt("Welcome Sevenstar bakery what do you want").toLocaleLowerCase();
+
+for (let i = 0; i < bakery.length; i++) {
+    if (bakery[i] == search) {
+        alert(search+" is available for you in "+i+" index");
+        break;
+    }
+}
+
+
+// 8
+var num = [24, 53, 78, 91, 12];
+document.write("<br><br>Array items: "+num);
+document.write("<br>The Largest number is "+Math.max.apply(null,num));
+
+
+// 9
+var num = [24, 53, 78, 91, 12];
+document.write("<br><br>Array items: "+num);
+document.write("<br>The Smallest number is "+Math.min.apply(null,num)+"<br>");
+
+// 10
+
+for (let i = 5; i <= 100 ; i = i+5) {
+    document.write(i+",");
+}
