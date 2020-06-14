@@ -4,77 +4,77 @@
 
 // CHAPTER N0 1
 
-// 1
+// Task1
 alert("Good Morning User");
 
-// 2
+// Task2
 alert("Error! Please enter avalid password");
 
-// 3
+// Task3
 alert("Welcome to js land...\nHappy Coding!")
 
-// 4
+// Task4
 alert("Welcome to js land");
 
 // alert("<h3>Pakistan<h3>");
 
-// 5
+// Task5
 alert("Hello... I can run JS through my web browser's console");
  
 
 // CHAPTER N0 2
 
-// 1
+// Task1
 var username;
 
-// 2
+// Task2
 var myname = "FARRUKH ASLAM";
 
-// 3
+// Task3
 var message;
 message = "PAKISTAN ZINDABAD";
 alert(message);
 
-// 4
+// Task4
 alert(myname);
 var age = 23;
 alert(age + " year old");
 alert("Certified Mobile Application Development 'INSHALLAH'");
 
-// 5
+// Task5
 alert("PIZZA\nPIZZ\nPIZ\nPI\nP");
 
-// 6
+// Task6
 email = "farrukha303@gmail.com";
 alert("My email address is " + email);
 
-// 7
+// Task7
 var txt = "A smarter way to learn JavaScript";
 alert("I am rying to learn from book " + txt);
 
-// 8
+// Task8
 document.write("Yah! I can write HTML content through JavaScript");
 
-// 9
+// Task9
 alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
 
 
 // CHAPTER N0 3
 
-// 1
+// Task1
 var age = "23";
 alert("I am " +age+ " year old");
 
-// 2
+// Task2
 var n = "7"
 alert("You have visited this site " +n+ "times");
 
-// 3
+// Task3
 var dobY = 1997;
 document.write("<br><br> date of birth year " +dobY);
 document.write("<br>Data type of my declared variable is " +typeof dobY);  
 
-// 4
+// Task4
 var visitorName = "Ali";
 var productTitle = "Suit";
 var quantity = 7;
@@ -85,15 +85,15 @@ document.write("<br><br>" +visitorName+ " order " +quantity+ " " +productTitle+ 
 
 // CHAPTER N0 4
 
-// 1
+// Task1
 var n1,n2,n3;
 
-// 2
+// Task2
 var first_name, firstName, sum_, div_num, total;
 
 // var $name, *first_name, &abc, .abcd, @abc_n;
 
-// 3
+// Task3
 document.write("<br><br><h2>Rules for naming JS variables</h2>");
 document.write("<br>Variable names can only contain number, $, and _. For example $my_1stVariable");
 document.write("<br>Variables must begin with a letter , $ or _. For example $name, _name or name");
@@ -105,21 +105,21 @@ document.write("<br>Variable names should not be JS keywords");
 
 // CHAPTER N0 5
 
-// 1
+// Task1
 var n1 = 3;
 var n2 = 5;
 var sum = n1 + n2;
 
 document.write("<br>Sum of " +n1+ " & " +n2+ " is " +sum);
 
-// 2
+// Task2
 var sub = n1-n2;
 document.write("<br>Subtraction of " +n1+ " & " +n2+ " is " +sub);
 document.write("<br>Multiplication of " +n1+ " & " +n2+ " is " +n1*n2);
 document.write("<br>Division of " +n1+ " & " +n2+ " is " +n1/n2);
 document.write("<br>Modulus of " +n1+ " & " +n2+ " is " +n1%n2);
 
-// 3
+// Task3
 var num;
 document.write("<br><br>The value after declaration is "+num);
 num = 5;
@@ -131,25 +131,25 @@ document.write("<br>Value after decrement is "+ --num);
 num = num % 2;
 document.write("<br>The remainder is "+ num%3);
 
-// 4
+// Task4
 var ticket_prize = 600;
 var n = 5
 document.write("<br><br>Total cost to buy " +n+ " tickets to a movie is " +n*ticket_prize+ "PKR");
 
-// 5
+// Task5
 var table = 4;
 document.write("<br><br>Table of " +table);
 for (var index = 1; index < 11; index++) {
     document.write("<br>"+table+ " X "+index+" = "+table*index);
 }
 
-// 6
+// Task6
 var c = 25;
 document.write("<br><br>"+c+ "oC is "+ ((c*9/5)+32) + "oF");
 var f = 70;
 document.write("<br>"+f+ "oF is "+(f-32)*5/9+ "oC");
 
-// 7
+// Task7
 var item1 = 650;
 var q1 = 3;
 var item2 = 100;
@@ -164,7 +164,7 @@ var total = item1*q1 + item2*q2 + s_c;
 document.write("<br>Total cost of your order is "+ total);
 
 
-// 8
+// Task8
 document.write("<br><br><h1>Mark Sheet</h1>");
 var t_m = 980;
 var m_o = 804;
@@ -173,19 +173,19 @@ document.write("<br>Total marks "+t_m);
 document.write("<br>Obtain marks "+m_o);
 document.write("<br>Percentage "+p);
 
-// 9
+// Task9
 document.write("<br><br><h1>Currency in PKR</h1>");
 var d = 10;
 var r = 25;
 var t = 104.80*d + 28*25;
 document.write("<br>total currency in PKR is "+t);
 
-// 10
+// Task10
 var num = 7;
 num = num+5*10/2;
 document.write("<br><br>After mathemetical expression ans: "+num);
 
-// 11
+// Task11
 document.write("<br><br><h1>AGE CALCULATOR</h1>");
 var dY = 1997;
 var cY = 2020;
@@ -194,14 +194,14 @@ document.write("<br>Birth Year "+dY);
 var age = cY-dY;
 document.write("<br>Your age "+age);
 
-// 12
+// Task12
 var radius = 20;
 document.write("<br><br><h1>The Geometrizer</h1>");
 document.write("<br>Radius of a circle "+radius);
 document.write("<br>The circumference is "+ radius*3.14*2);
 document.write("<br>The area is "+ radius*radius*3.14);
 
-// 13
+// Task13
 var snck = "oreo";
 var cAge = 23;
 var maxAge = 77;
@@ -218,7 +218,7 @@ document.write("<br>You will need "+ tS + " " +snck+ " to last you until the rip
 
 // CHAPTER N0 6-9
 
-// 1
+// Task1
 document.write("<br><br>Result");
 var a = 10;
 document.write("<br>The value of a is: "+a);
@@ -232,7 +232,7 @@ document.write("<br>Now the value of a is: "+a);
 document.write("<br><br>The value of a-- is: "+ a--);
 document.write("<br>Now the value of a is: "+a);
 
-// 2
+// Task2
 var a = 2, b = 1;
 var result =  --a - --b + ++b + b--;
 
@@ -250,11 +250,11 @@ var result =  --a - --b + ++b + b--;
     // ans: -1
 
 
-// 3
+// Task3
 var name = prompt("What your name: ");
 alert("Assalam o alikum "+name);
 
-// 5
+// Task5
 var n = prompt("Enter Number for Display table");
 document.write("<br><br><h2>Table</h2>");
 
@@ -269,7 +269,7 @@ else{
     }
 }
 
-// 6
+// Task6
 var s1,s2,s3,o1,o2,o3,t = 100;
 s1 = prompt("Enter Subject 1 name ");
 o1 = prompt("Enter its Obaining Number");
@@ -289,7 +289,7 @@ document.write("<tr><td></td><td></td><td align='center'><strong>"+t*3+"</strong
 
 // CHAPTER N0 9-11
 
-// 1
+// Task1
 var city = prompt("Enter Your city name");
 if(city.toLowerCase() == "karachi") {
     alert("Welcome to city of light");
@@ -298,7 +298,7 @@ else{
     alert("Welcome to "+city);
 }
 
-// 2
+// Task2
 var gender = prompt("Enter Your gender");
 if(gender.toLowerCase() == "male") {
     alert("Good Morning Sir");
@@ -307,7 +307,7 @@ if(gender.toLowerCase() == "female"){
     alert("Good Morning Mam");
 }
 
-// 3
+// Task3
 var color = prompt("Enter Color");
 if (color.toLowerCase() == "red") {
     alert("Must Stop");
@@ -319,13 +319,13 @@ if (color.toLowerCase() == "green") {
     alert("Move now");
 }
 
-// 4
+// Task4
 var fuel = prompt("Input remaining fuel in car");
 if (parseInt(fuel) < 0.25 ){
     alert("Please refill the fuel in your car”");
 }
 
-// 5
+// Task5
 // a. 
 var a = 4;
 if (++a === 5){
@@ -388,7 +388,7 @@ if("car" < "cat"){
 // ans: car is smaller than cat
 
 
-// 6
+// Task6
 
 var t = 300, o = 100;
 document.write("<br><br><h1>Mark Sheet</h1>");
@@ -414,7 +414,7 @@ if (p < 60){
 }
 
 
-// 7
+// Task7
 
 var guess = Math.floor(Math.random() * 11);
 for (let i = 0; i < 2; i++) {
@@ -431,7 +431,7 @@ for (let i = 0; i < 2; i++) {
 }
 
 
-// 8
+// Task8
 
 var num = parseInt(prompt("Enter Number"))
 if (num % 3 == 0){
@@ -441,7 +441,7 @@ else{
     alert(num+" not divisible by 3");    
 }
 
-// 9
+// Task9
 var num = parseInt(prompt("Enter Number"))
 if (num % 2 == 0){
     alert(num+" is even");
@@ -451,7 +451,7 @@ else{
 }
 
 
-// 10
+// Task10
 
 var temp = parseInt(prompt("Enter Temperature"));
 if ( temp > 40) {
@@ -468,7 +468,7 @@ else if ( temp > 10) {
 }
 
 
-// 11
+// Task11
 var n1 = parseInt(prompt("Enter 1st number"));
 var n2 = parseInt(prompt("Enter 2nd number"));
 var o = prompt("Enter Operator");
@@ -492,7 +492,7 @@ else if (0 == '%') {
 
 // CHAPTER N0 12-13
 
-// 1
+// Task1
 var chr = prompt("Enter Any character");
 if (chr.charCodeAt() >= 65 && chr.charCodeAt() <= 90 ){
     alert("Input character is 'Upper case'");
@@ -502,7 +502,7 @@ else if (chr.charCodeAt() >= 97 && chr.charCodeAt() <= 122 ){
 }
 
 
-// 2
+// Task2
 var n1 = parseInt(prompt("Enter integer 1"));
 var n2 = parseInt(prompt("Enter integer 2"));
 
@@ -517,7 +517,7 @@ else {
 }
 
 
-// 3
+// Task3
 var n = parseInt(prompt("Enter Number"));
 
 if (n >= 0 ) {
@@ -528,7 +528,7 @@ else {
 }
 
 
-// 4
+// Task4
 var chr = prompt("Enter Any character");
 if (chr == "a" || chr == "e" || chr == "i" || chr == "o" || chr == "u"){
     alert("True");
@@ -538,7 +538,7 @@ else {
 }
 
 
-// 5
+// Task5
 var s_pass = "Pakistan";
 var pass = prompt("Enter you password");
 // console.log(pass);
@@ -554,7 +554,7 @@ else {
 
 
 
-// 6
+// Task6
 var greeting;
 var hour = 13;
 if (hour < 18) {
@@ -564,7 +564,7 @@ if (hour < 18) {
 }
 
 
-// 7
+// Task7
 var time = parseInt(prompt("Enter Time in 24 hour format"));
 
 if (time >= 0000 && time <= 1200) {
@@ -583,25 +583,25 @@ if (time >= 2100 && time <= 2359) {
 
 // CHAPTER NO 14-16
 
-// 1
+// Task1
 var a_s_name = [];
 
-// 2
+// Task2
 var o_s_name = {};
 
-// 3
+// Task3
 var a_str = ['Pakistan', 'Turkey', 'Chine'];
 
-// 4
+// Task4
 var a_num = [4,7,9,49];
 
-// 5
+// Task5
 var a_bool = [true, false, false, true];
 
-// 6
+// Task6
 var a_mix = [7, 'PAKISTAN', true];
 
-// 7
+// Task7
 var qualification = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M.Phil', 'PhD'];
 
 document.write("<br><br><h2>Qualifications:</h2>")
@@ -610,7 +610,7 @@ for (let i = 0; i < qualification.length; i++) {
 }
 
 
-// 8
+// Task8
 var names = ['Farrukh', 'Taha', 'Usama'];
 var score = [350, 360 ,370];
 document.write("<br><br>Score of "+ names[0]+" is "+score[0]+". Percentage: "+(score[0]/500*100));
@@ -618,7 +618,7 @@ document.write("<br>Score of "+ names[1]+" is "+score[1]+". Percentage: "+(score
 document.write("<br>Score of "+ names[2]+" is "+score[2]+". Percentage: "+(score[2]/500*100));
 
 
-// 9
+// Task9
 var color = ['blue'];
 color.splice(0, 0,prompt("Enter Color you want to add in front"));
 document.write("<br><br>Updated array: "+color);
@@ -639,26 +639,26 @@ color.splice(temp, parseInt(prompt("how many color you delete")));
 document.write("<br>Updated array: "+color);
 
 
-// 10
+// Task10
 var score = [320,230,480,120];
 document.write("<br><br>Score of Student: "+score);
 document.write("<br>Sorted Score of Student: "+score.sort());
 
 
-// 11
+// Task11
 var cities = ['Karachi', 'Lahore', 'Islamabad', 'Quetta', 'Peshawar'];
 var selectCity = cities.slice(0,3);
 document.write("<br><br>Cities List:<br> "+cities);
 document.write("<br>Selected Cities List:<br> "+selectCity);
 
 
-// 12
+// Task12
 var arr = ['This', 'is', 'my', 'cat'];
 document.write("<br><br>Array:<br> "+arr);
 document.write("<br>String:<br> "+arr.join(" "));
 
 
-// 13
+// Task13
 var devices = []
 devices.push('keyboard');
 document.write("<br>IN: <br>"+devices);
@@ -678,7 +678,7 @@ devices.push('Monitor');
 document.write("<br>Out: <br>"+devices.shift());
 
 
-// 14
+// Task14
 var mobile_m = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier'];
 document.write("<br>Mobile Manufactures:<br><select name='Mobile Manufactures'>");
 for (var i in mobile_m) {
@@ -688,19 +688,19 @@ document.write("</select");
 
 // CHAPTER N0 17-20
 
-// 1
+// Task1
 var md_arr = [[],[]];
 
-// 2
+// Task2
 md_arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
 document.write("<br><br>");
 
-// 3
+// Task3
 for (let i = 1; i < 11; i++) {
     document.write("<br>"+i);    
 }
 
-// 4
+// Task4
 var tbl = parseInt(prompt("Enter Table Number"));
 var ln = parseInt(prompt("Length of table"));
 document.write("<br><br>Multiplication table of "+tbl);
@@ -711,7 +711,7 @@ for (let i = 1; i <= ln; i++) {
 }
 
 
-// 5
+// Task5
 var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
 document.write("<br>"+ (fruits.join("<br>"))+ "<br><br>");
 for (var item in fruits){
@@ -719,7 +719,7 @@ for (var item in fruits){
 }
 
 
-// 6
+// Task6
 
 document.write("<br><br>a. Counting: ")
 for (let i = 1; i <= 15; i++) {
@@ -747,7 +747,7 @@ for (let i = 0; i <= 15; i++) {
 }
 
 
-// 7
+// Task7
 var bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
 var search = prompt("Welcome Sevenstar bakery what do you want").toLocaleLowerCase();
 
@@ -759,18 +759,18 @@ for (let i = 0; i < bakery.length; i++) {
 }
 
 
-// 8
+// Task8
 var num = [24, 53, 78, 91, 12];
 document.write("<br><br>Array items: "+num);
 document.write("<br>The Largest number is "+Math.max.apply(null,num));
 
 
-// 9
+// Task9
 var num = [24, 53, 78, 91, 12];
 document.write("<br><br>Array items: "+num);
 document.write("<br>The Smallest number is "+Math.min.apply(null,num)+"<br>");
 
-// 10
+// Task10
 
 for (let i = 5; i <= 100 ; i = i+5) {
     document.write(i+",");
