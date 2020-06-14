@@ -686,7 +686,7 @@ for (var i in mobile_m) {
 }
 document.write("</select");
 
-// CHAPTER N0 14-16
+// CHAPTER N0 17-20
 
 // 1
 var md_arr = [[],[]];
