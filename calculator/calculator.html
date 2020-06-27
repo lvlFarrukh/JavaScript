@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="cal_style.css">
+
+    <title>Calculator</title>
 </head>
 <body>
     
+    <div class="main_div">
+        
+        <h1>Calculator</h1>
+        <div class="cal-input">
+            <input type="text" name="result" id="result" placeholder="0">
+        </div>
+
+        <div class="btns">
+            <div class="r1">
+                <button onclick="clearResult()">Clear</button>
+                <button onclick="clearOne()">X</button>
+            </div>
+
+            <div class="r2">
+                <button onclick="inverse()">1/x</button>
+                <button onclick="square()">x<sup>2</sup></button>
+                <button onclick="squareRoot()">Sqrt</button>
+                <button onclick="getnum('/')">/</button>
+            </div>
+
+            <div class="r2">
+                <button onclick="getnum('7')">7</button>
+                <button onclick="getnum('8')">8</button>
+                <button onclick="getnum('9')">9</button>
+                <button onclick="getnum('*')">x</button>
+            </div>
+
+            <div class="r2">
+                <button onclick="getnum('4')">4</button>
+                <button onclick="getnum('5')">5</button>
+                <button onclick="getnum('6')">6</button>
+                <button onclick="getnum('-')">-</button>
+            </div>
+
+            <div class="r2">
+                <button onclick="getnum('1')">1</button>
+                <button onclick="getnum('2')">2</button>
+                <button onclick="getnum('3')">3</button>
+                <button onclick="getnum('+')">+</button>
+            </div>
+
+            <div class="r2">
+                <button onclick="absolute()"><sup>+</sup>/<sub>-</sub></button>
+                <button onclick="getnum('0')">0</button>
+                <button onclick="getnum('.')">.</button>
+                <button onclick="showResult()">=</button>
+            </div>
+        </div>
+    </div>
+    
 </body>
+<script src="cal_app.js"></script>
 </html>
