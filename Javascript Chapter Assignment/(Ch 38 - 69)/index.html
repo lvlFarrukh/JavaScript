@@ -78,6 +78,7 @@
 
         .img-sliders {
             text-align: center;
+            overflow-x: hidden;
         }
 
         .img-sliders > img {
@@ -133,7 +134,20 @@
 
 <body>
 
-    <!-- <div class="main-div">
+    <div class='img-sliders'>
+        <h1>Car Images</h1>
+        <img onclick="viewLg(this)" src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" alt="">
+        <img onclick="viewLg(this)" src="https://www.arabianbusiness.com/public/images/2019/05/29/Ferrari_SF90_Stradale_5.jpg" alt="">
+        <img onclick="viewLg(this)" src="https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-e6snqicqndq7gbqa9cuvvnbj94-20191008005047.Medi.jpeg" alt="">
+        <img onclick="viewLg(this)" src="https://www.bigboytoyz.com/products/resized/2016-Mercedes-Benz-AMG-GTS-White-24.jpg" alt="">
+    </div>
+
+    <div id='disp-model'>
+        <span>x</span>
+        <img alt="">
+    </div>
+
+    <div class="main-div">
         <h1>Mobile Phone lookup</h1>
         <div class='expdiv'>
             <img src="https://www.whatmobile.com.pk/admin/images/Huawei/HuaweiNova7i-b.jpg" alt="">
@@ -205,21 +219,7 @@
 
 
     <div><h1> DOM </h1><div id="form-content" class="content"><label for="first-name">First Name</label><input type="text" id="first-name"/><label for="last-name">Last Name</label><input type="text" id="last-name"/><label for="email">Email</label><input type="text" id="email"/></div><div id="main-content" class="content"><p class="render"> First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render"> Email : alexbank@example.com</p><p class="render"> Country : Pakistan </p><p class="render"> contact : +92 300 1234567</p></div></div>
-         -->
-        
-    <div class='img-sliders'>
-        <h1>Car Images</h1>
-        <img onclick="viewLg(this)" src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" alt="">
-        <img onclick="viewLg(this)" src="https://www.arabianbusiness.com/public/images/2019/05/29/Ferrari_SF90_Stradale_5.jpg" alt="">
-        <img onclick="viewLg(this)" src="https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-e6snqicqndq7gbqa9cuvvnbj94-20191008005047.Medi.jpeg" alt="">
-        <img onclick="viewLg(this)" src="https://www.bigboytoyz.com/products/resized/2016-Mercedes-Benz-AMG-GTS-White-24.jpg" alt="">
-    </div>
-
-    <div id='disp-model'>
-        <span>x</span>
-        <img alt="">
-    </div>
-
+         
 
     <div id='zoom'>
         <h1 onclick="abcIn()">Some Example Text</h1>
